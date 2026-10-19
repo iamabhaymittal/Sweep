@@ -1,0 +1,8 @@
+// Copy this file to Local.xcconfig (same folder) and fill in your details.
+// Local.xcconfig is git-ignored, so your signing settings never end up in a commit.
+
+// Your Apple Developer Team ID: Xcode → Settings → Accounts, or developer.apple.com/account.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+
+// A reverse-DNS prefix you control. The app's bundle ID becomes <prefix>.sweep.
+BUNDLE_ID_PREFIX = com.example

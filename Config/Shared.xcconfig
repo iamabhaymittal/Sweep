@@ -1,0 +1,13 @@
+// Project-wide settings shared by every contributor.
+//
+// Signing is per developer: copy Local.xcconfig.template to Local.xcconfig (git-ignored)
+// and set your own team and bundle ID prefix there. Nothing in this file needs editing.
+
+// Empty by default, so a fresh clone builds for the Simulator without any Apple account.
+DEVELOPMENT_TEAM =
+
+// Bundle IDs are derived from this: the app is $(BUNDLE_ID_PREFIX).sweep.
+BUNDLE_ID_PREFIX = in.axentia
+
+// Optional: missing on a fresh clone, which is fine.
+#include? "Local.xcconfig"
