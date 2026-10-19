@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest a way Sweep could free up more space.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposed solution
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Project principles
+      options:
+        - label: This works entirely on device, with no network access or third-party services.
+          required: true

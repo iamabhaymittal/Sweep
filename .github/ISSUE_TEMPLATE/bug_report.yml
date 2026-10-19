@@ -1,0 +1,46 @@
+name: Bug report
+description: Something isn't working as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting. Please don't attach photos from your library.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Duplicates
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: ios
+    attributes:
+      label: iOS version and device
+      placeholder: iOS 26.7, iPhone 16
+    validations:
+      required: true
+  - type: dropdown
+    id: library
+    attributes:
+      label: Approximate library size
+      options:
+        - Under 1,000 items
+        - 1,000–10,000 items
+        - 10,000–50,000 items
+        - Over 50,000 items
+  - type: dropdown
+    id: access
+    attributes:
+      label: Photos access
+      options:
+        - Full access
+        - Limited access
